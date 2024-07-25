@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#viewDiv {
+    height: 100vh;
+}
+
+#basemapGalleryDiv {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#expandDiv {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#sketchDiv {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#toolbar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(201, 201, 45);
+    border: none;
+    color: hsl(7, 13%, 88%);
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: rgb(180, 180, 35);
+}
